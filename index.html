@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV de Juan Pablo Espeche</title>
+    <link rel="stylesheet" href="cv.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <ul class="menu">
+        <li> 
+            <a id="click-basicos" class="active" href="#" onclick="datosBasicos()"><i class=" bi-info" style="color: rgb(255, 255, 255);"></i>Datos básicos</a>
+        </li>
+        <li>
+            <a href="#" id="click-experiencia" onclick="experiencia()"><i class="bi-archive-fill" style="color: rgb(255, 255, 255);"></i>  Experiencia Laboral</a>
+        </li>
+        <li>
+            <a href="#" id="click-educacion" onclick="educacion()"><i class=" bi-book" style="color: rgb(255, 255, 255);"></i>  Educación</a>
+        </li>
+        <li>
+            <a href="#" id="click-curso" onclick="curso()"><i class=" bi-journal-check" style="color: rgb(255, 255, 255);"></i>  Curso</a>
+        </li>
+    </ul>
+
+
+    <h3 class="center">
+        Curriculum Vitae
+    </h3>
+
+        <h1 class="nombre center" onclick="datosBasicos()">
+            Juan Pablo Espeche
+        </h1>
+
+        <img class="circular--cuadrado" id="img--borde" src="https://randomuser.me/api/portraits/men/17.jpg" alt="Foto de Juan Pablo Espeche" onclick="datosBasicos()">
+
+    <div id="basicos" class="parrafo">
+        <h4>Detalles    </h4>
+        <p>
+        <b>Nombre:</b> Juan Pablo Espeche <br><br>
+        
+        <b>Dirección:</b> Calle bajo 10 Buenos Aires, B1363 FA<br><br>
+        <span id="hideText" class="hideText">
+        
+        
+            <b>Número de teléfono:</b> 54 1234 567 890<br><br>
+            
+            <b>Correo electrónico:</b> juanpabloespeche@gmail.com<br><br>
+            
+            <b>Habilidades: </b>Microsoft Power Point, Microsoft Word, Microsoft Excel, SAP<br><br>
+            
+            <b>Idiomas: </b>Español, Inglés, Frances</p><br>
+        </span>
+        <button class="readMore_btn center" id="readMore_btn">Leer más</button>
+
+        
+    </div>
+
+    <div id="experiencia" class="parrafo">
+        <h4><b>Experiencia Laboral</b></h4>
+        <p>
+
+        Asistente administrativo financiero Philips Electronics, Buenos Aires, dic. 2017-Presente<br>
+        
+        Como administrador financiero soy responsable de: <br>
+        <ul>
+        
+        <li>Administración de nómina. Informes de cifras de ventas.</li> <br>
+                
+        <li>Comprobación y análisis de los resultados financieros.</li> <br>
+        
+        <li>Preparación de facturas salientes y notas de crédito basadas en acuerdos contractuales respondiendo preguntas sobre facturas y pagos.</li></ul> <br> <hr>
+        
+        Asistente administrativo financiero, mar. 2014 nov. 2017 Gorillas, Buenos Aires <br>
+        Como empleado financiero en Gorillas era responsable de:<br>
+        
+        <ul>
+            <li> Administración de nómina.</li><br>
+            
+            <li>Administración financiera.</li><br>
+            
+           <li> Preparación de informes para la dirección.</li><br>
+            
+            <li> Mantener contactos con los clientes.</li><br>
+            
+            <li> Aprobar acuerdos de pago.</li><br>
+        </ul><hr>
+        
+        Asistente administrativo Agencia de empleo, Buenos Aires oct. 2012-feb. 2014<br>Como asistente administrativo era responsable de:<br>
+        
+        <ul> 
+            <li> Administración de nómina.</li><br>
+            <li> Administración de deudores y acreedores.</li><br>
+            <li> Gestionar las ausencias por enfermedad. Programar trabajadores flexibles.</li></ul><br></p>
+        
+
+     
+        
+    </div>
+
+    <div id="educacion" class="parrafo">
+        <h4>Educacion</h4>
+        <p><b>Carrera técnica en Administración Financiera </b> <br><br>
+                Colegio Administrativo de Buenos Aires, Buenos Aires <br><br>
+
+<b> Bachillerato </b><br><br>
+
+Instituto bachillerato de Argentina, Buenos Aires </ul> <br><br>
+
+ </p>   
+    </div>
+
+
+    <div id="curso" class="parrafo">
+        <h4>Curso</h4>
+        <p>
+            <b>
+                SAP <br><br>
+            </b>
+            Colegio Administrativo de Madrid <br><br>
+            <b>
+                Curso básico de administración de nómina</b> <br><br>
+                UBM
+</p>  
+
+
+        
+    </div>
+
+    <script src="cv.js"></script>
+</body>
+</html>
